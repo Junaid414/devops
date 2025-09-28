@@ -1,0 +1,138 @@
+    1  sudo apt update
+    2  sudo apt install tasksel
+    3  sudo apt install ubuntu-desktop
+    4  sudo reboot now
+    5  ls
+    6  cd vboxuser
+    7  cd Donwloads
+    8  ls
+    9  cd Desktop/
+   10  cd Documents
+   11  cd..
+   12  cd.
+   13  cd ..
+   14  cd Documents/
+   15  ;s
+   16  ls
+   17  cd /home
+   18  ls
+   19  cd vboxuser
+   20  ls
+   21  cd Documents/
+   22  ls
+   23  rm al_nafi_copy
+   24  rm al_nafi_copy.odt
+   25  ls
+   26  ls -l
+   27  chsh bash
+   28  echo $SHELL
+   29  ls
+   30  rmdir test_linux.s
+   31  rm test_linux.sh
+   32  ls
+   33  vim test_linux
+   34  tes_linux
+   35  test_linux
+   36  ./test_linux
+   37  cd Documents/
+   38  pwd
+   39  vim test_linux
+   40  cd ..
+   41  vim test_linux
+   42  ./test_linux
+   43  cd Documents/
+   44  ls
+   45  pws
+   46  pwd
+   47  vim test_linux
+   48  cd..
+   49  cd ..
+   50  vim test_linux
+   51  ./test_linux
+   52  vim test_linux
+   53  ./test_linux
+   54  pwd
+   55  vim test_linux
+   56  ./test_linux
+   57  pwd
+   58  vim test_linux
+   59  sudo apt install bash
+   60  bash
+   61  chsh -s /bin/bash
+   62  pwd
+   63  which bash
+   64  p2e
+   65  pwd
+   66  bash
+   67  pwd
+   68  echo $shell
+   69  echo $SHELL
+   70  ls
+   71  cd desktop
+   72  vim test_linux
+   73  vim test_linux.sh
+   74  ./test_linux.sh
+   75  ls
+   76  ls -l
+   77  chmod +x test_linux
+   78  ls -l
+   79  ./test_linux.sh
+   80  chmod +x test_linux.sh
+   81  ./test_linux.sh
+   82  chmod +x test_linux
+   83  ./test_linux
+   84  vim test_linux.sh
+   85  ./test_linux
+   86  ./test_linux.sh
+   87  vim test_linux
+   88  ./test_linux
+   89  bash
+   90  pwd
+   91  bash
+   92  ls
+   93  cd Downloads/
+   94  ls
+   95  sudo install 2.deb
+   96  sudo dpkg 2.deb
+   97  sudo dpkg -i 2.deb
+   98  D
+   99  sudo dpkg --print-foreign-architectures
+  100  sudo dpkg -i 2.deb
+  101  dpkg-architecture -q DEB_BUILD_ARCH
+  102  sudo apt install dpkg-dev
+  103  sudo dpkg -i 2.deb
+  104  sudo dpkg -i code_1.104.2-1758714550_arm64.deb
+  105  ls
+  106  git --v
+  107  git --version
+  108  git config --global user.name "Taimoor Saeed"
+  109  git config --global user.email "taimoor.dev@gmail.cinm"
+  110  git config --global user.email "taimoor.dev@gmail.com
+  111  git config --global user.email "taimoor.dev@gmail.com"
+  112  sudo apt update
+  113  ssh-keygen -t ed25519 -C "taimoor.dev@gmail.com"
+  114  ssh-keygen -t ed25519 -C "your.email@example.com"
+  115  eval "$(ssh-agent -s)"
+  116  cat ~/.ssh/id_ed25519.pub
+  117  ssh -T git@github.com
+  118  git@github.com:Junaid414/devops.git
+  119  git clone https://github.com/Junaid414/devops
+  120  ls
+  121  cd devops/
+  122  ;s
+  123  git log
+  124  git status
+  125  git add .
+  126  git commit -m "initial commit taimoor"
+  127  git branch
+  128  git push origin main
+  129  ls
+  130  cd devops/
+  131  ls
+  132  git branch
+  133  touch feature.txt
+  134  ls
+  135  echo history > feature.txt
+  136  cat feature.txt
+  137  history
+  138  history > feature.txt
