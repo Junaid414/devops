@@ -130,13 +130,6 @@ This is a collaborative DevOps learning repository. Feel free to:
 - Share infrastructure automation tools
 - Document best practices
 
-### Team Members
 
-- **Usman** - Apache Web Server Deployment
-- **Adnan** - Team Collaborator
-- **Junaid** - Repository Owner
 
----
-
-**Happy DevOps Learning! 🎉**
 
