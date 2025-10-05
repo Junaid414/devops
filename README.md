@@ -40,8 +40,7 @@ task_devops/
 ├── deploy_to_linux.ps1  # PowerShell script for remote deployment
 ├── sample_index.html    # Professional HTML template
 ├── README.md           # This documentation file
-├── adnan.txt           # Team member file
-└── usman.txt           # Team member file
+
 ```
 
 ### Useful Commands
@@ -140,3 +139,4 @@ This is a collaborative DevOps learning repository. Feel free to:
 ---
 
 **Happy DevOps Learning! 🎉**
+
