@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/base.css') }}">
+    <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Human Intestinal Ecosystem</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon_HIE_notransp.ico') }}">
+</head>
+<body>
+    <header class="site-header">
+        <a href="{{ url_for('landing_page') }}" class="logo-link">
+        <div class="title logo-container">
+            <img src="{{ url_for('static', filename='images/favicon_HIE_large.ico') }}" alt="HIE Logo" class="logo-img">
+            <div class="title-text">
+            <h1>Human Intestinal Ecosystem</h1>
+            <h2>Microbiomes and Health</h2>
+            </div>
+        </div>
+        </a>
+    </header>
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+services:
+  dev:
+    build:
+      context: .
+      target: dev
+    ports:
+      - "5000:5000"
+      - "8888:8888"
+    volumes:
+      - .:/code
+    working_dir: /code
+    stdin_open: true
+    tty: true
+    command: bash
+
+  prod:
+    build:
+      context: .
+      target: prod
+    ports:
+      - "8000:8000"
+    environment:
+      - FLASK_ENV=production
+    command: >
+      waitress-serve --listen=0.0.0.0:8000 app.app:app
+

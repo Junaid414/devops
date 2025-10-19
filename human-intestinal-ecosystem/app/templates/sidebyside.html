@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="mini-header">
+	
+	<a href="{{ url_for('landing_page') }}"><img src="{{ url_for('static', filename='images/favicon_HIE_large.ico') }}" alt="Logo" class="mini-logo">
+	</a>
+	<a href="{{ url_for('landing_page') }}" style="text-decoration: none; color: black;">
+	<h1 style="text-decoration: none;">Human Intestinal Ecosystem</h1>
+	</a>
+	<button type="button" id="resetSelection">Reset Sample Selection</button>
+</div>
+<button type="button" id="updateData">Update Plots with Selection</button>
+<div class="rowwrap">
+	<div id="leftvis"><iframe src="{{url_for('sunburst')}}" name="leftvis" scrolling="no"></iframe></div>
+	<div id="middlevis"><iframe src="{{url_for('histograms')}}" name='middlevis' scrolling="no"></iframe></div>
+	<div id="rightvis"><iframe src="{{url_for('clustering')}}" name='rightvis' scrolling="no"></iframe></div>
+</div>
+
+
+<script src="{{ url_for('static', filename='js/sidebyside.js') }}"></script>
+<script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/sidebyside.css') }}">
+
+<script type="text/javascript">
+	dataset = {{ data | safe }};
+	dataset_samples = {{ data_sample | safe }};
+	dataset_taxonomy = {{ data_taxo | safe }};
+</script>
+
+{% endblock %}

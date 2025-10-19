@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="tree"></div>
+
+<script type="text/javascript">
+	dataset = {{ data | safe}};
+</script>
+<script src="{{ url_for('static', filename='js/tree.js') }}"></script>
+{% endblock %}
