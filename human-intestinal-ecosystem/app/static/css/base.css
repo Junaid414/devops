@@ -1,0 +1,100 @@
+.site-header {
+  padding: 1rem;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-text h1,
+.title-text h2 {
+  margin: 0;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: left;
+}
+
+.title-text h1 {
+  font-size: 2rem;
+}
+
+.title-text h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #555;
+}
+
+body{
+    background-color: white;
+    font-size: 11pt;
+    font: 11pt sans-serif;
+font-family: Arial, Verdana
+}
+
+h2.subtitle{
+  font-family: Arial, Verdana;
+  font-size: 15pt;
+  color: black;
+  padding: 1.5rem;
+}
+
+.flexbox{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  justify-content: center;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .title-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .title-text h2 {
+    font-size: 1rem;
+  }
+
+  h2.subtitle{
+  padding: 1.25rem;
+  }
+
+  .logo-img {
+    width: 40px;
+  }
+
+  .title-text {
+    align-items: center;
+    text-align: center;
+  }
+
+}
